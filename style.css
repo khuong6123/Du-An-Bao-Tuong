@@ -18,3 +18,15 @@ body {
   padding: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* =====================header==================== */
+
+.header .box {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.header .deco {
+  width: 20%;
+}
