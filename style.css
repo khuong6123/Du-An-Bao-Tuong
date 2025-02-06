@@ -68,3 +68,53 @@ body {
   width: 70%;
   height: 80%;
 }
+
+/* ================blog-list=============== */
+
+.body .blog-list {
+  overflow: hidden;
+  gap: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.body .item {
+  flex-shrink: 0;
+  width: calc(30% - 20px);
+  border-radius: 16px;
+  background: gold;
+}
+
+.body .item:hover {
+  box-shadow: 0px 16px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.body .item .info {
+  display: flex;
+}
+
+.body .item .thumb {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.body .ca-dao h2 {
+  justify-self: center;
+  margin-bottom: 0;
+}
+
+.body .item .title {
+  margin-top: 12px;
+  color: #171100;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.body .item .desc {
+  width: 30%;
+}
