@@ -185,3 +185,87 @@ body {
 .feedback .deco {
   width: 15%;
 }
+
+/* ================feedback=============== */
+
+.body .feedback {
+  margin: 30px 0;
+  padding: 10px 0;
+  background: #2e2100;
+}
+
+.feedback-list {
+  overflow: hidden;
+  display: flex;
+}
+
+.feedback-item {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.feedback-item .info {
+  text-align: center;
+  width: 30%;
+}
+
+.feedback-item .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback-item .info .member-name {
+  margin: 10px 0;
+  color: #f7f7f7;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.42;
+}
+
+.feedback-item .info .desc {
+  margin-top: 4px;
+  color: #b3b2bf;
+  font-size: 14px;
+  line-height: 1.86;
+}
+
+.feedback-item .content {
+  width: 66%;
+}
+
+.feedback-item .content h3 {
+  justify-self: center;
+  color: #fff;
+}
+
+.feedback-item blockquote {
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.54;
+}
+
+.feedback .deco {
+  width: 15%;
+}
+
+/* =====================footer==================== */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: yellow;
+}
+
+.footer .deco {
+  width: 7.5%;
+}
+
+.footer p {
+  align-self: flex-end;
+}
