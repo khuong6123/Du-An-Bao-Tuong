@@ -30,3 +30,41 @@ body {
 .header .deco {
   width: 20%;
 }
+
+/* =====================header==================== */
+
+.header .box {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.header .deco {
+  width: 20%;
+}
+
+/* =====================body==================== */
+
+/* ================box=============== */
+.body .box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body .box .deco {
+  width: 20%;
+  height: 256px;
+}
+
+.body .box .thu-phap {
+  background-image: url(./img/vd5.png);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body .box .thu-phap img {
+  width: 70%;
+  height: 80%;
+}
