@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box; /* Cố định kích thước box */
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  /* Font mặc định */
+  font-family: "Arial", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1300px;
+  min-height: 1300px;
+  background-size: contain;
+  margin: 20px auto;
+  background-image: url(./img/background.webp);
+  background-clip: content-box;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-block;
+  min-width: 110px;
+  padding: 0 16px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: #171100;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/* =====================header==================== */
+
+.header {
+  background: url(./img/LHX.webp);
+  background-size: cover;
+  height: 500px;
+}
+
+.header .return {
+  width: 10%;
+}
+
+/* =====================body==================== */
+/* ================box================= */
+.body .box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body .box .deco {
+  width: 25%;
+  height: 400px;
+}
+
+/* ================popular================= */
+.popular {
+  padding: 20px 0;
+  /* margin-top: 135px; */
+}
+
+.popular-top {
+  display: flex;
+  justify-content: red;
+  align-items: center;
+}
+
+.popular .popular-top .TV {
+  width: 20%;
+}
+
+.popular .popular-top .info {
+  background: orange;
+  border-radius: 0 10px 10px 0;
+  padding: 15px;
+  align-self: flex-end;
+}
+
+.popular-top desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.popular .course-list {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.popular .course-item {
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: yellow;
+  width: 27%;
+}
+
+.popular .course-item:hover {
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .course-item .thumnb {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.popular .course-item .info {
+  padding: 16px 22px 22px;
+}
+
+.popular .course-item .foot,
+.popular .course-item .rating,
+.popular .course-item .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular .course-item .title a {
+  color: #171100;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.popular .rating .value {
+  margin-left: 6px;
+  color: #fea31b;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.popular .course-item .desc {
+  margin-top: 6px;
+  color: #5f5b53;
+  font-size: 14px;
+  line-height: 1.86;
+}
+
+.popular .course-item .price {
+  color: #171100;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.popular .watch-video {
+  margin-left: 28px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popular .watch-video .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.07);
+}
+
+.popular .watch-video span {
+  margin-left: 14px;
+  color: #171100;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+/* ================features-1================= */
+.features {
+  margin: 100px 0;
+  padding: 30px 0;
+}
+
+.features .top {
+  display: flex;
+}
+
+.features .info {
+  background: orange;
+  border-radius: 0 10px 10px 0;
+  padding: 15px;
+  align-self: flex-end;
+}
+
+.features .top .snake {
+  width: 15%;
+}
+
+.features .body {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+
+.features .images img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .lower {
+  margin-top: 34px;
+}
+
+.features .background {
+  width: 35%;
+  background-image: url(./img/background2.png);
+  background-size: 100% 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.features .content {
+  margin: 0 20px;
+  width: 100%;
+}
+
+.features .content h2 {
+  text-align: center;
+}
+
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+}
+
+/* ================feature-2================= */
+.features-2nd {
+  margin-top: 70px;
+}
+
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
+}
+
+.features-2nd .background {
+  background-image: url(./img/background3.png);
+  background-color: transparent;
+  width: 25%;
+}
+
+.features-2nd .background .content {
+  width: 100%;
+}
+
+.features-2nd .desc {
+  color: #fff;
+}
+
+/* ================treme================= */
+
+.treme .top {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.treme .info {
+  background: orange;
+  border-radius: 0 10px 10px 0;
+  padding: 15px;
+  align-self: flex-end;
+}
+
+.treme .top .snake {
+  width: 15%;
+}
+
+.treme .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.treme .khung {
+  background-image: url(./img/cuon-thu2.webp);
+  background-size: 100% 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.treme .khung2 {
+  background-image: url(./img/cuon-thu3.webp);
+  background-size: 100% 100%;
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.treme .deco {
+  width: 20%;
+}
+
+.treme .cau-doi {
+  margin-top: 60px;
+  font-family: "Great Vibes", serif;
+  margin-bottom: 50px;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: white;
+}
