@@ -53,6 +53,50 @@ body {
   width: 10%;
 }
 
+/* =====================cross==================== */
+
+.cross {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin: 0 auto;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  background: red;
+}
+
+.nav a {
+  position: relative;
+  color: #5f5b53;
+  color: yellow;
+  font-size: 25.6px;
+  padding: 8px 21px;
+}
+
+.nav li.active a,
+.nav a:hover {
+  color: #171100;
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #171100;
+}
+
 /* =====================body==================== */
 /* ================box================= */
 .body .box {

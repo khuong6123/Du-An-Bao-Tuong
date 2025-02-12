@@ -16,7 +16,23 @@
   <body>
     <div class="container">
       <div class="header">
-        <img src="./img/return.png" alt="" class="return" />
+        <a href="index.html"
+          ><img src="./img/return.png" alt="" class="return"
+        /></a>
+      </div>
+      <div class="cross">
+        <!-- nav -->
+        <!-- nav là thẻ có ngữ nghĩa, giúp trình duyệt biết thành menu hoặc thanh điều hướng -->
+        <nav class="nav">
+          <ul>
+            <li class="active">
+              <a href="#!">Home</a>
+            </li>
+            <li><a href="#section1">Video</a></li>
+            <li><a href="#section2">Thơ Ca</a></li>
+            <li><a href="#section3">Câu Đối</a></li>
+          </ul>
+        </nav>
       </div>
       <div class="body">
         <!-- Box -->
@@ -27,7 +43,7 @@
         </div>
 
         <!-- Popular -->
-        <div class="popular">
+        <div class="popular" id="section1">
           <div class="main-content">
             <div class="popular-top">
               <div class="info">
@@ -281,7 +297,7 @@
         </div>
 
         <!-- Feature -->
-        <div class="features">
+        <div class="features" id="section2">
           <div class="main-content">
             <div class="top">
               <div class="info">
@@ -372,7 +388,7 @@
         </div>
 
         <!-- Case -->
-        <div class="treme">
+        <div class="treme" id="section3">
           <div class="top">
             <div class="info">
               <h2 class="heading-lv2">Câu Đối Tết</h2>
